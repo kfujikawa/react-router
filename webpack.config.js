@@ -9,6 +9,9 @@ module.exports = {
         filename: 'index.js',
     },
     devtool: 'inline-source-map',
+    devServer: {
+      historyApiFallback: true,
+    },
     module: {
       loaders: [
         {
